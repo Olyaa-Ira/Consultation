@@ -1,0 +1,153 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.container	{
+	max-width: 500px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+body {
+	font-family: roboto;
+	font-weight: normal;
+	font-size: 18px;
+	background: linear-gradient(243.18deg, #DCDCDC 0%, rgba(255, 255, 255, 0) 100%);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+.offer {
+	margin-top: 15px;
+	font-size: 30px;
+	font-weight: 700;
+	/*max-width:411px;*/
+	/*max-height: 183px;*/
+	line-height: 30px;
+
+}
+.info-txt {
+	line-height: 20px;
+	/*max-width:550px;*/
+	/*height: 68,25px;*/
+	
+}
+.info-txt2 {
+	margin-top:18px;
+	/*max-width:423px;*/
+	/*height: 101px;*/
+}
+.offer-text {
+	margin-top: 20px;
+	font-weight: 600;
+	line-height: 17px;
+}
+.hey {
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	padding-bottom: 20px;
+
+}
+.olya-text {
+	margin-top: 7px;
+	line-height: 20px;
+}
+.olya-foto {
+	margin-top: 20px;
+	margin-left: ;
+
+/*background*/
+	border: 2px solid #D938BF;
+    box-sizing: border-box;
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    max-width: 104px;
+
+    }
+ .olya-foto:hover{
+ 	border: 2px solid #FF00D6;
+ }
+.ira-foto {
+	margin-top: 20px ;
+	margin-left: ;
+
+
+
+	border: 2px solid #D938BF;
+    box-sizing: border-box;
+    box-shadow: 3px 9px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    max-width: 104px;
+}
+.ira-foto:hover{
+	border: 2px solid #FF00D6;
+}
+.info-ira {
+	margin-left: ;
+	margin-top: 7px ;
+	line-height: 20px;
+
+}
+.button	{
+	margin-top: 20px;
+	margin: 0 auto;
+	display: block;
+	margin-left: ;
+	margin-top: ; 
+
+	background: #FFFFFF;
+	border: 2px solid #D938BF;
+	box-sizing: border-box;
+	box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+	border-radius: 45px;
+}
+
+.button:hover {
+	border: 3px solid #FF00D6;
+}
+
+.button-text {
+	display: block;
+	text-transform: uppercase;
+	padding: 50px 25px;
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+	font-weight: 700;
+	font-size: 18px;
+
+}
