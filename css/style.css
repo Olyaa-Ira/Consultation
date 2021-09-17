@@ -76,7 +76,7 @@ h6 {
 /*!---------------------HEADER---------------------------------------------------------------------------*/
 
 body {
-	background: #3e3e3e;
+	background: linear-gradient(180deg, #FF3377 0%, rgba(49, 45, 255, 0.52) 100%);
 	font-family: roboto;
 }
 .wrapper {
