@@ -333,6 +333,9 @@ body {
 		font-size: 25px;
 		line-height: 20px;
 	}
+	.text__subtitle {
+		line-height: 16px;
+	}
 }
 @media (max-width: 390px) {
 	._container {
